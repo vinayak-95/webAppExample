@@ -39,6 +39,11 @@
 		</configuration>
 	</plugin>
 		
+        <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-war-plugin</artifactId>
+               <version>3.8.6</version>
+        </plugin>	
 		<!-- Maven Plugin for Jetty -->
 <!-- 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
