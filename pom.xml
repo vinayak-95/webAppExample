@@ -30,7 +30,7 @@
 	<plugin>
 		<groupId>org.codehaus.cargo</groupId>
 		<artifactId>cargo-maven2-plugin</artifactId>
-		<version>1.7.6</version>
+		<version>3.8.6</version>
 		<configuration>
 			<container>
 				<containerId>tomcat9x</containerId>
@@ -38,12 +38,7 @@
 			</container>
 		</configuration>
 	</plugin>
-		
-        <plugin>
-               <groupId>org.apache.maven.plugins</groupId>
-               <artifactId>maven-war-plugin</artifactId>
-               <version>3.8.6</version>
-        </plugin>	
+			
 		<!-- Maven Plugin for Jetty -->
 <!-- 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
